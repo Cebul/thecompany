@@ -380,12 +380,18 @@ p {
 .navigation-top {
   border-bottom: 1px solid #aaa;
   padding-bottom: 8px; }
+  .navigation-top span:hover {
+    color: #000;
+    cursor: pointer; }
 
 .navigation-bottom {
   margin-bottom: 20px;
   width: 400px;
   margin-top: 8px;
   color: #aaa; }
+  .navigation-bottom span:hover {
+    color: #fff;
+    cursor: pointer; }
 
 .fa.fa-facebook {
   float: left;
@@ -397,7 +403,11 @@ p {
   color: #666;
   text-align: center;
   padding-top: 3px;
-  padding-right: 3px; }
+  padding-right: 3px;
+  cursor: pointer; }
+  .fa.fa-facebook:hover {
+    background-color: #222;
+    color: #fff; }
 
 .fa.fa-twitter {
   float: left;
@@ -410,7 +420,11 @@ p {
   text-align: center;
   padding-top: 3px;
   padding-right: 2px;
-  margin-left: 5px; }
+  margin-left: 5px;
+  cursor: pointer; }
+  .fa.fa-twitter:hover {
+    background-color: #222;
+    color: #fff; }
 
 .fa.fa-linkedin {
   float: left;
@@ -424,6 +438,10 @@ p {
   padding-top: 3px;
   padding-right: 3px;
   margin-left: 5px;
-  padding-left: 2px; }
+  padding-left: 2px;
+  cursor: pointer; }
+  .fa.fa-linkedin:hover {
+    background-color: #222;
+    color: #fff; }
 
 /*# sourceMappingURL=mystyles.css.map */
