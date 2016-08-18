@@ -354,6 +354,7 @@ p {
     background-color: #00aa00; }
 
 .footer {
+  height: 100px;
   background-color: #666; }
 
 .navigation {
